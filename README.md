@@ -6,6 +6,7 @@ The Easy Tip Calculator application launched a graphical user interface which re
 
 
 
+![tip calculator](https://cloud.githubusercontent.com/assets/17654819/13552858/4720d08e-e341-11e5-824f-0d2ae8ad2ad9.png)
 
 
 
