@@ -12,9 +12,7 @@ The Easy Tip Calculator application launched a graphical user interface which re
 
 
 
-
-
-
+![email picture](https://cloud.githubusercontent.com/assets/17654819/13552881/dc9ee754-e341-11e5-9949-1fade1a75a9a.png)
 
 
 
