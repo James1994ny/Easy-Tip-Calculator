@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Email Address"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/editText1Email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="0dp"
+        android:background="#ffffff"
+        android:ems="10"
+        
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Recepient Name"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/editText1Recipient"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Location of purchase" />
+
+    <EditText
+        android:id="@+id/editText1Location"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/button1GoBack"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Go Back"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/GrandTotalText"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Total Cost"
+        android:layout_marginTop="10dp"
+         />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Cost Per Person"
+         />
+
+    <Button
+        android:id="@+id/button1Send"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Send" />
+
+</LinearLayout>

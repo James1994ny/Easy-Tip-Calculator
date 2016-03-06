@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#3B3178"
+    tools:context="com.example.easytipcalculatorhtc.MainActivity" >
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:ems="10"
+        android:textSize="20dp"
+         />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="30dp"
+        android:width="60dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#FFFFFF" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText1Email"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="175dp"
+        android:textSize="20dp"
+        android:ems="10"
+        android:width="60dp" 
+        android:gravity="center"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Tip Rate(%)" 
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="175dp"
+        android:gravity="center"
+        android:text="Tax Rate(%)"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+         />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="15dp"
+        android:text="TextView" 
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Party Size" 
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="Cost Total $$$"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="98dp"
+        android:layout_height="30dp"
+		android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textSize="15dp"
+        android:height="30dp"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="Grand Total" 
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="98dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="345dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:gravity="center"
+        android:text="Cost per person"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Calculate!"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:text="+"
+        android:layout_marginTop="200dp"
+        android:textSize="35dp"
+        android:layout_marginLeft="195dp"
+        android:textColor="#008B00"
+        android:background="#FFA500"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="250dp"
+        android:background="#FFA500"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#FF0000"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="220dp"
+        android:text="Email"
+        android:textSize="10dp" />
+
+</RelativeLayout>
