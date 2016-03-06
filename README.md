@@ -6,8 +6,25 @@ The Easy Tip Calculator application launched a graphical user interface which re
 
 
 
-If you recieve this error/error mark when starting up:"error: Error retrieving parent for item: No resource found that matches the given name 'Theme.AppCompat.Light'." 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you recieve this error/error mark when starting up:"error: Error retrieving parent for item: No resource found that matches the given name 'Theme.AppCompat.Light'." 
 
 FIX IT BY FOLLOWING THE STEPS.
 
@@ -24,3 +41,8 @@ FIX IT BY FOLLOWING THE STEPS.
 6)Click OK.
 
 7)Do a clean build on the project project.
+
+
+
+
+
