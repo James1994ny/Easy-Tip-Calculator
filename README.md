@@ -10,15 +10,9 @@ If you recieve this error/error mark when starting up:"error: Error retrieving p
 
 FIX IT BY FOLLOWING THE STEPS.
 Right click the project in Package Explorer, select Properties
-
 Select Android
-
 In the Library section at the bottom, click Add....
-
 Select android-support-v7-appcompat in the dialog.
-
 Click Apply.
-
 Click OK.
-
 Do a clean build on the project project.
