@@ -1,4 +1,4 @@
-# Easy-Tip-Calculator
+# Android-Easy-Tip-Calculator
 
 Easy Tip Calculator was my 2nd completed Android application created using Java, Android SDK, and XML. 
 
