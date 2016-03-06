@@ -10,6 +10,7 @@ If you recieve this error/error mark when starting up:"error: Error retrieving p
 
 
 FIX IT BY FOLLOWING THE STEPS.
+
 1)Right click the project in Package Explorer, select Properties
 
 2)Select Android
